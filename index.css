@@ -14,8 +14,10 @@ body {
 
 header,
 footer {
+	padding: 0.5rem;
 	background-color: #008000;
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .content {
@@ -41,17 +43,17 @@ footer {
 }
 
 .list {
-    margin-left: 2rem;
+	margin-left: 2rem;
 }
 
 .styled-value {
 	color: #00ffff;
-    letter-spacing: 0.5rem;
+	letter-spacing: 0.5rem;
 }
 
 .visual-styles {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 3fr 1fr;
 }
 
 .underline {
@@ -63,6 +65,7 @@ footer {
 	grid-template-columns: repeat(3, 1fr);
 	justify-content: center;
 	border: 1px solid #c7c7cd;
+	border-radius: 2px;
 }
 
 .table > div {
@@ -70,7 +73,8 @@ footer {
 	justify-content: center;
 	align-items: end;
 	border: 1px solid #c7c7cd;
-	margin: 3px;
+	margin: 2px;
+	padding-block: 3px;
 }
 
 .table > div:first-child {
